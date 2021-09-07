@@ -40,6 +40,9 @@ body{
     text-align: center;
     margin-bottom: 2rem;
 }
+.logo a{
+    text-decoration: none;
+}
 
 .login{
     margin-top: 2rem;
