@@ -1,1 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Page | JadeFarm</title>
+  <link rel="stylesheet" href="/profile.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+</head>
+
+<body>
+
+  <!--  --------------------------Nav bar---------------------------------  -->
+  <nav>
+    <div class="nav-left">
+      <a class="logo" href="/home.html">JadeFarm</a>
+
+      <ul>
+        <!-- <li> <a href="home.html">Home</a> </li>
+        <li> <a href="#">Explore</a> </li>
+        <li> <a href="#">Peers</a> </li> -->
+
+        <li> <a href="home.html"> <i class="fas fa-home"></i> </a> </li>
+        <li> <a href="#"> <i class="fas fa-user-friends"></i> </a> </li>
+        <li> <a href="#"> <i class="far fa-comments"></i> </a> </li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <!-- <div class="search-box">
+        <img src="/static/search.png" alt="search">
+        <input type="text" placeholder="Search Your Profile">
+      </div> -->
+      <div class="search-box">
+        <a href="#" class="nav-link search-icon"> <i class="fas fa-search"></i> </a>
+        <input type="text" placeholder="Search Your Profile">
+      </div>
+
+      <div>
+        <ul>
+
+          <li> <a href="#"> <i class="fas fa-bell"></i> </a> </li>
+          <li> <a href="#"> <i class="fas fa-cog"></i> </a> </li>
+          <li> <a href="#"> <i class="fas fa-sign-out-alt"></i> </a> </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!--  --------------------------Left Sidebar---------------------------------  -->
+    <div class="left-sidebar">
+      
+      <div class="user-description">
+        <div class="dp">
+          <!-- <img src="/static/dp_2.jpg" alt="Display-Picture"> -->
+          <img src="/static/friends1.jpg" alt="Display-Picture">
+        </div>
+        <div class="name">
+          Naruto Uzumaki
+        </div>
+        <div class="social-media-icons">
+            <a href="#" id="fb"> <i class="fab fa-facebook"></i> </a>
+            <a href="#"  id="insta"> <i class="fab fa-instagram"></i> </a>
+            <a href="#" id="linkedin"> <i class="fab fa-linkedin"></i> </a>
+            <a href="#" id="twitter"> <i class="fab fa-twitter"></i> </a>
+            <a href="#" id="github"> <i class="fab fa-github"></i> </a>
+        </div>
+        <div class="intro">
+          <h3>Intro</h3>
+          <p id="user-caption">Hey.. My name is Naruto Uzumaki ! And some day I will become Hokage !</p>
+          <hr>
+          <li> <i class="fas fa-briefcase"></i> Works at Amazon</li>
+          <li> <i class="fas fa-graduation-cap"></i> Studied Information Technology (IT'24)</li>
+          <li> <i class="fas fa-school"></i> Went to Pannalal Institution</li>
+          <li> <i class="fas fa-home"></i> Lives in Kalyani, West Bengal</li>
+          <li> <i class="fas fa-map-marker-alt"></i> From Kalyani, West Bengal</li>
+          <!-- <p>Department : IT</p>
+          <p>Batch : 2020-2024</p>
+          <p>Jadavpur University</p>
+          <p>Lives in Tokyo,Japan</p> -->
+        </div>
+      </div>
+
+      <div class="user-all-photos">
+        <div class="title-photos">
+          <h3>Photos</h3>
+          <a href="">All Photos</a>
+        </div>
+        <div class="photo-box">
+          <div> <img src="/static/photos1.png" alt="Photos"> </div>
+          <div> <img src="/static/photos2.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos3.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos4.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos5.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos6.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos7.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos8.jpg" alt="Photos"> </div>
+          <div> <img src="/static/photos9.jpg" alt="Photos"> </div>
+        </div>
+        
+      </div>
+
+
+      
+      <div class="user-all-friends">
+        
+        <div class="title-friends">
+          <h3>Friends</h3>
+          <a href="">All Friends</a>
+        </div>
+        
+        <p id="no-of-friends">1,469 Friends</p>
+        
+        <div class="friend-box">
+          <div> <img src="/static/friends1.jpg" alt="Friends"> <p>Naruto Uzumaki</p> </div>
+          <div> <img src="/static/friends2.jpg" alt="Friends"> <p>Sasuke</p> </div>
+          <div> <img src="/static/friends3.jpg" alt="Friends"> <p>Sakura Haruno</p> </div>
+          <div> <img src="/static/friends4.jpg" alt="Friends"> <p>Hinata</p> </div>
+          <div> <img src="/static/friends5.png" alt="Friends"> <p>Kakashi Hatake</p> </div>
+          <div> <img src="/static/friends6.jpg" alt="Friends"> <p>Jiraiya</p> </div>
+          <div> <img src="/static/friends7.jpg" alt="Friends"> <p>Obito Uchiha</p> </div>
+          <div> <img src="/static/friends8.jpg" alt="Friends"> <p>Rinn</p> </div>
+          <div> <img src="/static/friends9.jpeg" alt="Friends"> <p>Shikamaru</p> </div>
+        </div>
+        
+      </div>
+
+
+    </div>
+    
+    <!--  --------------------------Main Content---------------------------------  -->
+    <div class="main-content">
+      <!-- ---------------------------------  Write a Post  ---------------------------------------- -->
+      <div class="write-post-container">
+        
+        <div class="user-profile">
+          <!-- <img src="/static/dp_2.jpg" alt="user_dp"> -->
+          <img src="/static/friends1.jpg" alt="Display-Picture">
+          <div>
+            <p>Naruto Uzumaki</p>
+            <small>Public <i class="fas fa-sort-down"></i> </small>
+          </div>
+        </div>  
+
+        <div class="write-post-elements">
+          <textarea cols="30" rows="3" placeholder="What's on your mind, Naruto ?"></textarea>
+        </div>
+
+        <div class="post-element-icons">
+          <i class="far fa-images" id="icon-blue"> <span>Photo</span> </i> 
+          <i class="far fa-film" id="icon-green"> <span>Video</span> </i>
+          <i class="far fa-newspaper" id="icon-red"> <span>Article</span> </i>
+        </div>
+        
+      </div>
+
+      <!-- ---------------------------------------  POST 1  ---------------------------------------- -->
+      <div class="post-container">
+        
+        <div class="user-profile">
+          <!-- <img src="/static/dp_2.jpg" alt="user_dp"> -->
+          <img src="/static/friends1.jpg" alt="Display-Picture">
+          
+          <div>
+            <span id="name"> <span>Naruto Uzumaki</span> </span>
+            <span class="dots"><i class="fas fa-ellipsis-v"></i></span>
+            <div id="date">February 29,2020 10:10am</div>
+            
+          </div>
+        </div>
+
+        <div class="write-post">
+          <p>5years back 😊... Reminiscing Old Memories ❤
+          </p>
+        </div>
+        <div class="image-post">
+          <img src="/static/post1.jpg" alt="post">
+        </div>
+        
+        <div class="post-icons">
+            <span  id="red"> <i class="far fa-heart"> <span>Love</span> </i> </span>
+            <span  id="blue"> <i class="fas fa-comment-dots"> Comment </i> </span>
+            <span  id="yellow"> <i class="fas fa-share"> Share </i> </span>
+        </div>
+
+      </div>
+        <!-- ---------------------------------------  POST 2  ---------------------------------------- -->
+      
+        <div class="post-container">
+        
+          <div class="user-profile">
+            <!-- <img src="/static/dp_2.jpg" alt="user_dp"> -->
+            <img src="/static/friends1.jpg" alt="Display-Picture">
+            
+            <div>
+              <span id="name"> <span>Naruto Uzumaki</span> </span>
+              <span class="dots"><i class="fas fa-ellipsis-v"></i></span>
+              <div id="date">January 01,2020 08:11pm</div>
+              
+            </div>
+          </div>
+  
+          <div class="write-post">
+            <p>Marriage Ceremony 🥰
+            </p>
+          </div>
+          <div class="image-post">
+            <img src="/static/post2.jpg" alt="post">
+          </div>
+          <div class="post-icons">
+              <span  id="red"> <i class="far fa-heart"> <span>Love</span> </i> </span>
+              <span  id="blue"> <i class="fas fa-comment-dots"> Comment </i> </span>
+              <span  id="yellow"> <i class="fas fa-share"> Share </i> </span>
+          </div>
+  
+        </div>
+        <!-- ---------------------------------------  POST 3  ---------------------------------------- -->
+        
+        <div class="post-container">
+        
+          <div class="user-profile">
+            <!-- <img src="/static/dp_2.jpg" alt="user_dp"> -->
+            <img src="/static/friends1.jpg" alt="Display-Picture">
+            
+            <div>
+              <span id="name"> <span>Naruto Uzumaki</span> </span>
+              <span class="dots"><i class="fas fa-ellipsis-v"></i></span>
+              <div id="date">November 25,2019 03:13pm</div>
+              
+            </div>
+          </div>
+  
+          <div class="write-post">
+            <p>Picnic Time 🤓🤩🥰
+            </p>
+          </div>
+          <div class="image-post">
+            <img src="/static/post3.jpg" alt="post">
+          </div>
+          <div class="post-icons">
+              <span  id="red"> <i class="far fa-heart"> <span>Love</span> </i> </span>
+              <span  id="blue"> <i class="fas fa-comment-dots"> Comment </i> </span>
+              <span  id="yellow"> <i class="fas fa-share"> Share </i> </span>
+          </div>
+  
+        </div>
+        <!-- ---------------------------------------  POST 4  ---------------------------------------- -->
+        
+        <div class="post-container">
+        
+          <div class="user-profile">
+            <!-- <img src="/static/dp_2.jpg" alt="user_dp"> -->
+            <img src="/static/friends1.jpg" alt="Display-Picture">
+            
+            <div>
+              <span id="name"> <span>Naruto Uzumaki</span> </span>
+              <span class="dots"><i class="fas fa-ellipsis-v"></i></span>
+              <div id="date">October 15,2019 09:15am</div>
+              
+            </div>
+          </div>
+  
+          <div class="write-post">
+            <p>Hii Guys... Mera naam hai Nobita... Nam to suna hi hoga !
+            </p>
+          </div>
+          <!-- <div class="image-post"> -->
+            <!-- <img src="" alt=""> -->
+          <!-- </div> -->
+          <div class="post-icons">
+              <span  id="red"> <i class="far fa-heart"> <span>Love</span> </i> </span>
+              <span  id="blue"> <i class="fas fa-comment-dots"> Comment </i> </span>
+              <span  id="yellow"> <i class="fas fa-share"> Share </i> </span>
+          </div>
+  
+        </div>
+
+
+
+
+    </div>
+
+    <!--  --------------------------Right Sidebar---------------------------------  -->
+    <div class="right-sidebar">
+
+    </div>
+  </div>
+
+</body>
+
+</html>
